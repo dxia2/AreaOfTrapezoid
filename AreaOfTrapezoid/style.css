@@ -1,11 +1,18 @@
 html{
     background: blue;
 }
+
+
 body{
+    /* set background to white*/
     background:white;
     padding: 25px 50px;
     width: 600px;
+
+    /* 50px vertical margin, auto width */
     margin: 50px auto;
+
+    /* rounds corners */
     border-radius: 25px;
 }
 h1, h2{
@@ -13,11 +20,12 @@ h1, h2{
 }
 
 li{
-
+    /* adds spacing between list elements */
     margin-bottom: 10px;
 }
 
 ul{
+    /* removes bullets and indent on unordered lists */
     list-style: none;
     padding-left: 0;
 }
@@ -28,6 +36,7 @@ button{
 }
 
 img{
+    /* adds grey 1px border to image */
     border: 1px solid;
     border-color: grey;
 }
