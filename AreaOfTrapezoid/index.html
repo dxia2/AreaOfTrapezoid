@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>Area Of Trapezoid</title>
-    </head>
 
-    <body>
-        <h1>Area of a Trapezoid Calculator</h1>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Area Of Trapezoid</title>
+</head>
 
-        <!--Load image-->
-        <img src="img/area-trapezoid.png" alt="Trapezoid image">
+<body>
+    <h1>Area of a Trapezoid Calculator</h1>
 
-        <!--Paragraph with link to trapezoid website-->
-        <p><em>Click <a href="https://www.mathsisfun.com/geometry/trapezoid.html" target="_blank">here</a>
-             to learn more about trapezoids.
+    <!--Load image-->
+    <img src="img/area-trapezoid.png" alt="Trapezoid image">
+
+    <!--Paragraph with link to trapezoid website-->
+    <p><em>Click <a href="https://www.mathsisfun.com/geometry/trapezoid.html" target="_blank">here</a>
+            to learn more about trapezoids.
         </em></p>
 
-        <h2>Input</h2>
-        <!--Unordered list with inputs for calculating area of trapezoid-->
-        <ul>
-            <li>Enter length of side a: <input type="number"></li>
-            <li>Enter length of side b: <input type="number"></li>
-            <li>Enter height of trapezoid: <input type="number"></li>
-        </ul>
+    <h2>Input</h2>
+    <!--Unordered list with inputs for calculating area of trapezoid-->
+    <ul>
+        <li>Enter length of side a: <input id="sideA" type="number"></li>
+        <li>Enter length of side b: <input id="sideB" type="number"></li>
+        <li>Enter height of trapezoid: <input id="height" type="number"></li>
+    </ul>
 
-        <button type="button">Calculate</button>
+    <button id="calculateButton" type="button">Calculate</button>
+    
+    <h2>Output</h2>
+    <p>The area of the trapezoid is: <span id="areaOutput">-----</span></p>
 
-        <h2>Output</h2>
-        <p>The area of the trapezoid is: -----</p>
-    </body>
+    <script src="script.js"></script>
+</body>
+
 </html>
